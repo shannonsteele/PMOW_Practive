@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/7d77f97a-a9c1-417e-9d3f-553f011f49a4/resourceGroups/PMOWResourceGroup/providers/Microsoft.Web/sites/PMOW",
+    "appService.deploySubpath": "."
+}
