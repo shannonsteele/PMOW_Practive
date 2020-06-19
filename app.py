@@ -3,7 +3,7 @@ from flask_oidc import OpenIDConnect
 from okta import UsersClient
 
 import sys
-sys.path.append('/home/site/wwwroot')
+sys.path.append('../')
 
 
 app = Flask(__name__)
