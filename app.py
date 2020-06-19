@@ -1,4 +1,4 @@
-from app import app
+from flask import app
 from flask import Flask, render_template, g, redirect, url_for
 from flask_oidc import OpenIDConnect
 from okta import UsersClient
