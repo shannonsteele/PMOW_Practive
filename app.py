@@ -2,6 +2,10 @@ from flask import Flask, render_template, g, redirect, url_for
 from flask_oidc import OpenIDConnect
 from okta import UsersClient
 
+import sys
+sys.path.append('/home/site/wwwroot')
+
+
 app = Flask(__name__)
 app.config["OIDC_CLIENT_SECRETS"] = "client_secrets.json"
 app.config["OIDC_COOKIE_SECURE"] = False
